@@ -1,0 +1,58 @@
+.App {
+  max-width: 100%;
+  margin: auto;
+  padding: 2rem;
+  width: fit-content;
+  text-align: center;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  background-color: #efefef;
+}
+h1 {
+  border: solid 5px orange;
+  width: 100%;
+}
+button {
+  border: solid 2px black;
+  background-color: orange;
+  margin: 2rem;
+  border-radius: 25px;
+  height: 3rem;
+  width: 20rem;
+}
+ul {
+  paddinginlinestart: "0";
+  margin: 2rem 2rem;
+  width: 50%;
+  height: 50%;
+}
+
+ul li {
+  border: solid 5px black;
+  margin: 25px 25px;
+  border-radius: 25px;
+  text-align: center;
+  padding: 20px;
+}
+.name {
+  border:solid 2px orange;
+  margin: 2px 5px;
+  font-weight: bolder;
+  border-radius: 20px;
+}
+.rating{
+  border: solid 2px green;
+  margin-top: 2rem;
+  border-radius: 20px;
+  font-weight: bold;
+
+}
+.desc{
+  border: solid 2px red;
+  margin-top: 2rem;
+  border-radius: 20px;
+  color: grey;
+
+}
